@@ -1,0 +1,4 @@
+curl -Lo '@tmp/zig.tar.xz' 'https://ziglang.org/download/@version/zig-@arch-@version.tar.xz'
+rm -rf ~/.local/zig
+tar -C '@tmp' -xf '@tmp/zig.tar.xz'
+mv '@tmp/zig-@arch-@version' ~/.local/zig

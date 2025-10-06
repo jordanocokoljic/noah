@@ -1,1 +1,2 @@
-go  1.25.1  linux-amd64
+go	1.25.1  linux-amd64
+zig	0.15.1	x86_64-linux
